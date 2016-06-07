@@ -2,7 +2,7 @@
 
 dnf update --assumeyes &&
     dnf install --assumeyes dnf coreutils util-linux &&
-    chmod 0500 /opt//sbin/* &&
+    chmod 0500 /opt/protonshiny/sbin/* &&
     chmod 0555 /opt/protonshiny/bin/* &&
     export PATH=${PATH}:/opt/protonshiny/sbin &&
     install-user.sh &&
